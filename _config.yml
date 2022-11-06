@@ -3,10 +3,10 @@
 # -----------------------------------------------------------------------------
 
 title: ICLR Blogposts # the website title (if blank, full name will be used instead)
-first_name:
-middle_name:
-last_name:
-email:
+first_name: a
+middle_name: b
+last_name: c
+email: charlie.gauthier@umontreal.ca
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Home to the 2023 ICLR Blogposts track
 footer_text: >
