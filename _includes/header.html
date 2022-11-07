@@ -54,7 +54,15 @@
               <!-- Call -->
               <li class="nav-item {% if page.permalink == '/2023/call' %}active{% endif %}">
                 <a class="nav-link" href="{{ '/2023/call' | relative_url }}">call
-                  {%- if page.permalink == '/call' -%}
+                  {%- if page.permalink == '/2023/call' -%}
+                  <span class="sr-only">(current)</span>
+                  {%- endif -%}
+                </a>
+              </li>
+              <!-- Workflow -->
+              <li class="nav-item {% if page.url contains 'workflow' %}active{% endif %}">
+                <a class="nav-link" href="{{ '/2023/workflow/' | relative_url }}">workflow
+                  {%- if page.permalink == '/2023/workflow' -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
