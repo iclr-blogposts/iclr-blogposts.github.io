@@ -37,8 +37,7 @@ here can have very hard-to-debug consequences.**
 # Setup & Writing workflows
 
 1. First and foremost, [fork this repository](https://github.com/iclr-blogposts/staging). 
-    We stress that you must fork the [`staging`]([fork this repository](https://github.com/iclr-blogposts/staging))
-    repository, not the main repository.
+    We stress that you must fork the [staging repository](https://github.com/iclr-blogposts/staging), not the main repository.
 2. Rename your fork. Namely, you probably should rename it
     using a personalized name inspired by the subject of your submission. **This is a "project" website**, not a "user" website.
 3. Follow the [`Deployment` instructions](https://github.com/iclr-blogposts/staging/blob/master/README.md#deployment) 
@@ -50,7 +49,8 @@ here can have very hard-to-debug consequences.**
     try directly visiting `<your website url>/2023/about`.*
 5. Create a new folder in the `assets` folder. Name it after your repository name.
 6. You may then add your blogpost in the `_posts` folder. You must place any accompanying pictures, HTML figures, 
-    or other such data in the folder you created in Step 5. Refrain from adding any identifying information.
+    or other such data in the folder you created in Step 5. Refer to the [provided example]().
+7. Refrain from adding any identifying information.
 
 **Should you edit ANY files other than `_config.yml`, your new post inside the `_posts` directory, and your new folder inside the `assets` directory,
 your pull requests will automatically be ignored.**
