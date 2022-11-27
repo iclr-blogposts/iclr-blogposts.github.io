@@ -49,7 +49,7 @@ here can have very hard-to-debug consequences.**
     try directly visiting `<your website url>/2023/about`.*
 5. Create a new folder in the `assets` folder. Name it after your repository name.
 6. You may then add your blogpost in the `_posts` folder. You must place any accompanying pictures, HTML figures, 
-    or other such data in the folder you created in Step 5. Refer to the [provided example]().
+    or other such data in the folder you created in Step 5. Refer to the [provided example](https://iclr-blogposts.github.io/2023/blog/2021/distill-example/).
 7. Refrain from adding any identifying information.
 
 **Should you edit ANY files other than `_config.yml`, your new post inside the `_posts` directory, and your new folder inside the `assets` directory,
