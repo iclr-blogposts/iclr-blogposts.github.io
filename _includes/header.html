@@ -44,48 +44,48 @@
               {% endfor %}
 
               <!-- About -->
-              <li class="nav-item {% if page.permalink == '/2023/about' %}active{% endif %}">
+              <!-- <li class="nav-item {% if page.permalink == '/2023/about' %}active{% endif %}">
                 <a class="nav-link" href="{{ '/2023/about' | relative_url }}">about
                   {%- if page.permalink == '/2023/about' -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
-              </li>
+              </li> -->
               <!-- Call -->
-              <li class="nav-item {% if page.permalink == '/2023/call' %}active{% endif %}">
+              <!-- <li class="nav-item {% if page.permalink == '/2023/call' %}active{% endif %}">
                 <a class="nav-link" href="{{ '/2023/call' | relative_url }}">call
                   {%- if page.permalink == '/2023/call' -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
-              </li>
+              </li> -->
               <!-- submissions -->
-              <li class="nav-item {% if page.url contains 'submissions' %}active{% endif %}">
+              <!-- <li class="nav-item {% if page.url contains 'submissions' %}active{% endif %}">
                 <a class="nav-link" href="{{ '/2023/submissions/' | relative_url }}">submissions
                   {%- if page.permalink == '/2023/submissions' -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
-              </li>
+              </li> -->
               <!-- Blog -->
-              <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
+              <!-- <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
                 <a class="nav-link" href="{{ '/2023/blog/' | relative_url }}">{{ site.blog_nav_title }}
                   {%- if page.url contains 'blog' -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
-              </li>
+              </li> -->
               <!-- 2022 -->
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link" href="https://iclr-blog-track.github.io/home/">2022 edition <u>⤤</u>
                   {%- if page.url contains 'blog' -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
-              </li>
+              </li> -->
 
               <!-- Other pages -->
-              <!--
+              
               {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
               {%- for p in sorted_pages -%}
               {%- if p.nav and p.autogen == nil -%}
@@ -117,7 +117,7 @@
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
-              -->
+             
               {%- if site.enable_darkmode %}
 
               <!-- Toogle theme mode -->
