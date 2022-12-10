@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Submission and Writing Workflow
-permalink: /2023/submissions
+title: submitting
+permalink: /submissions
 description:
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 
 # A more open process

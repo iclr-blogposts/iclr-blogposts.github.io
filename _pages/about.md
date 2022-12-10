@@ -1,18 +1,20 @@
 ---
 layout: about
 title: about
-permalink: /2023/about
+permalink: /about
+nav: true
+nav_order: 4
 subtitle:
 
-profile:
-  align: right
-  image: 
-  image_circular: false # crops the image to make it circular
-  address: 
+# profile:
+#   align: right
+#   image: 
+#   image_circular: false # crops the image to make it circular
+#   address: 
 
-news: false  # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
+# news: false  # includes a list of news items
+# selected_papers: false # includes a list of papers marked as "selected={true}"
+# social: false  # includes social icons at the bottom of the page
 ---
 
 
@@ -109,9 +111,6 @@ GitHub.
 
 ## Organizers
 
-&nbsp;
-
-
 <div class="row row-cols-2 projects pt-3 pb-3">
   {% include people_horizontal.html name="Gauthier Gidel" affiliation="Mila, Université de Montréal" url="https://gauthiergidel.github.io/" img="assets/img/organizers/gg.jpg" %}
   {% include people_horizontal.html name="Charlie Gauthier" affiliation="Mila, Université de Montréal" url="https://velythyl.github.io/" img="assets/img/organizers/cg.jpg" %}
@@ -119,45 +118,6 @@ GitHub.
   {% include people_horizontal.html name="Claire Vernade" affiliation="University of Tuebingen" url="https://www.cvernade.com/" img="assets/img/organizers/cv.jpg" %}
   {% include people_horizontal.html name="Joan Bruna" affiliation="New York University" url="https://cims.nyu.edu/~bruna/" img="assets/img/organizers/jb.jpg" %}
 </div>
-
-<!-- 
-<ul class="image-list-small">
-  <li>
-    <a style="background-image: url({{site.url}}/assets/img/organizers/gg.jpg);"></a>
-    <div class="details">
-      <h3>Gauthier Gidel</h3>
-      <p class="image-author">gidelgau [ at ] mila.quebec</p>
-    </div>
-  </li>
-  <li>
-    <a style="background-image: url({{site.url}}/assets/img/organizers/cg.jpg);"></a>
-    <div class="details">
-      <h3>Charlier Gauthier</h3>
-      <p class="image-author">charlie.gauthier [ at ] mila.quebec</p>
-    </div>
-  </li>
-  <li>
-    <a style="background-image: url({{site.url}}/assets/img/organizers/dd.jpg);"></a>
-    <div class="details">
-      <h3>David Dobre</h3>
-      <p class="image-author">david-a.dobre [ at ] mila.quebec</p>
-    </div>
-  </li>
-  <li>
-    <a style="background-image: url('{{site.url}}/assets/img/organizers/sb.jpg');"></a>
-    <div class="details">
-      <h3>Joan Bruna</h3>
-      <p class="image-author">bruna [ at ] cims.nyu.edu</p>
-    </div>
-  </li>
-  <li>
-    <a style="background-image: url('{{site.url}}/assets/img/organizers/cv.jpg');"></a>
-    <div class="details">
-      <h3>Claire Vernade</h3>
-      <p class="image-author">vernade [ at ] deepmind.com</p>
-    </div>
-  </li>
-</ul> -->
 
 ---
 
