@@ -44,32 +44,32 @@
               {% endfor %}
 
               <!-- About -->
-              <li class="nav-item {% if page.permalink == '/2023/about' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/2023/about' | relative_url }}">about
-                  {%- if page.permalink == '/2023/about' -%}
+              <li class="nav-item {% if page.permalink == '/about' %}active{% endif %}">
+                <a class="nav-link" href="{{ '/about' | relative_url }}">about
+                  {%- if page.permalink == '/about' -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
               </li>
               <!-- Call -->
-              <li class="nav-item {% if page.permalink == '/2023/call' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/2023/call' | relative_url }}">call
-                  {%- if page.permalink == '/2023/call' -%}
+              <li class="nav-item {% if page.permalink == '/call' %}active{% endif %}">
+                <a class="nav-link" href="{{ '/call' | relative_url }}">call
+                  {%- if page.permalink == '/call' -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
               </li>
               <!-- submissions -->
               <li class="nav-item {% if page.url contains 'submissions' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/2023/submissions/' | relative_url }}">submissions
-                  {%- if page.permalink == '/2023/submissions' -%}
+                <a class="nav-link" href="{{ '/submissions/' | relative_url }}">submissions
+                  {%- if page.permalink == '/submissions' -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
               </li>
               <!-- Blog -->
               <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/2023/blog/' | relative_url }}">{{ site.blog_nav_title }}
+                <a class="nav-link" href="{{ '/blog/' | relative_url }}">{{ site.blog_nav_title }}
                   {%- if page.url contains 'blog' -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}

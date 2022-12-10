@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Submission and Writing Workflow
-permalink: /2023/submissions
+permalink: /submissions
 description:
 nav: true
 nav_order: 2
